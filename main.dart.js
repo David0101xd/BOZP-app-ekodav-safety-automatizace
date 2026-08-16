@@ -55909,7 +55909,7 @@ $0(){return this.a.Xu(this.b)},
 $S:0}
 B.ZT.prototype={
 M(a){var s=null
-return B.az("Verze aplikace: 16.8. 18:44 (ad8e4b9)",s,s,s,B.fG(s,s,A.pa,s,s,s,s,s,s,s,s,10,s,s,s,s,s,!0,s,s,s,s,s,s,s,s),A.da,s)}}
+return B.az("Verze aplikace: 16.8. 23:13 (c220312)",s,s,s,B.fG(s,s,A.pa,s,s,s,s,s,s,s,s,10,s,s,s,s,s,!0,s,s,s,s,s,s,s,s),A.da,s)}}
 B.a2z.prototype={
 M(a){var s,r=null,q=B.biq(),p=q.a,o=p/1024,n=p<1048576?A.n.ah(o,0)+" kB":A.n.ah(o/1024,1)+" MB"
 p=$.kd!=null
