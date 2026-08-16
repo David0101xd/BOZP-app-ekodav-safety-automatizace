@@ -1,0 +1,30 @@
+name: ekodav_safety
+description: BOZP a PO inspekcni aplikace
+publish_to: 'none'
+version: 1.0.0+1
+
+environment:
+  sdk: '>=3.0.0 <4.0.0'
+
+dependencies:
+  flutter:
+    sdk: flutter
+  cupertino_icons: ^1.0.2
+  image_picker: ^1.0.7
+  pdf: ^3.10.8
+  printing: ^5.11.0
+  url_launcher: ^6.2.5
+  http: ^1.6.0
+  shared_preferences: ^2.2.3
+  geolocator: ^13.0.1
+  # Fotografie se ukládají mimo shared_preferences – na webu jde
+  # o IndexedDB (stovky MB) místo localStorage se stropem ~5 MB.
+  hive_ce_flutter: ^2.3.4
+  file_picker: ^11.0.3
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+
+flutter:
+  uses-material-design: true

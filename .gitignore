@@ -1,0 +1,6 @@
+# Výstupy sestavení (včetně `flutter build web`)
+/build/
+
+# Lokální nástroje
+.dart_tool/flutter_build/
+*.log
